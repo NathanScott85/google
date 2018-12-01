@@ -16,17 +16,31 @@
 
 <body>
     <nav>
-        <ul>
-            <li class="nav">Gmail </li>
-            <li class="nav"> Images</li>
-            <li class="nav"><i class="fas fa-th"></i></li>
-            <li class="nav"> <i class="fas fa-bell"></i></li>
-            <li class="nav"><img class="super" src="./img/super.png" alt=""></li>
+        <ul class="nav">
+            <li >
+            <a class="navlink" href="">Gmail</a> 
+            </li>
+            <li class="nav"> 
+            <a class="navlink" href="">Images</a>
+            </li>
+            <li class="nav">
+            <a class="navlink" href=""><i class="fas fa-th"></i></a>
+            </li>
+            <li class="nav"> 
+            <a class="navlink" href=""><i class="fas fa-bell"></i></a>
+            </li>
+            <li class="nav">
+            <a class="navlink" href=""><img class="super" src="./img/super.png" alt=""></a>
+            </li>
         </ul>
     </nav>
+
     <main>
-        <div class="grid">
-            <div class="image">
+    <div class="container">
+
+            
+        <div class="wrapper">
+        <div class="image">
                 <img class="george" src="./img//stgeorgesday.png" alt="st-georgesday">
             </div>
             <div>
@@ -39,16 +53,17 @@
                 </form>
 
             </div>
+                <div>
+                    <button>Google Search</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>
+        </div> 
+    </div>
+    
+    </main>
 
-            <div>
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
-            </div>
-        </div>
-
-        <footer>
-
-            <ul>
+    <footer >
+            <ul className="footer">
                 <div class="left">
                     <li class="inline-left">Advertising</li>
                     <li class="inline-left">Business</li>
@@ -60,10 +75,8 @@
                     <li class="inline-right">Terms</li>
                     <li class="inline-right">Settings</li>
                 </div>
-
             </ul>
         </footer>
-    </main>
 </body>
 
 </html>
